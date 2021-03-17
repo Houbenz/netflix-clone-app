@@ -2,8 +2,8 @@
     package="com.example.netflix_clone">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="netflix_clone"
-        android:icon="@mipmap/ic_launcher">
+        android:label="netflix clone"
+        android:icon="@drawable/n_logo">
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
