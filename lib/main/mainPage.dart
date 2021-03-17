@@ -42,8 +42,10 @@ class _MainPageState extends State<MainPage> {
             child: Image(image: AssetImage("assets/n_logo.png"),width: 15,)),
         elevation: 0,
         backgroundColor: Colors.transparent,
+
         actions: [
-          Container(
+          if(_currentindex == 0)
+            Container(
             margin: EdgeInsets.only(right: 8),
             child: IconButton(
                 icon: Icon(Icons.cast), onPressed: ()=> print("cast")),
