@@ -1,6 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:netflix_clone/main/ComingSoon.dart';
 import 'package:netflix_clone/main/HomePage.dart';
+
+import 'DownloadPage.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -16,8 +19,8 @@ class _MainPageState extends State<MainPage> {
 
   static List<Widget> _pagesOptions=[
     HomePage(),
-    HomePage(),
-    HomePage(),
+    ComingSoonPage(),
+    DownloadPage(),
   ];
 
   void _onTappedItem(int index){
